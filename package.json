@@ -1,0 +1,25 @@
+{
+  "name": "pick",
+  "version": "1.0.0",
+  "description": "Package for http request like axios",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "fetch",
+    "http"
+  ],
+  "author": "Roberto Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
