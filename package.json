@@ -1,5 +1,5 @@
 {
-  "name": "pick",
+  "name": "pick-rest",
   "version": "1.0.0",
   "description": "Package for http request like axios",
   "main": "lib/index.js",
